@@ -3,9 +3,7 @@ let express = require('express');
 let app = express();
 let bodyParser = require('body-parser');
 let http = require('http').Server(app);
-const pug = require('pug')
-const fs = require('fs')
-const async = require('async');
+const fs = require('fs');
 
 const MongoClient = require('mongodb').MongoClient;
 const mongo_username = process.env.MONGO_USERNAME
