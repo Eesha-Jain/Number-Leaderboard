@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Input</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <h1>Number Input</h1>
+
+  <form action="/create" method="POST" autocomplete="off">
+    <div class="centered">
+      <label for="username">Input a username</label><br>
+    </div>
+    
+    <div class="centered">
+      <input type="text" name="username" id="username" class="textInput" placeholder="ex. creampuff" required>
+    </div>
+
+    <div class="centered">
+      <label for="number">Input a number</label><br>
+    </div>
+    
+    <div class="centered">
+      <input type="number" name="number" id="number" class="textInput" placeholder="ex. 1" required>
+    </div>
+
+    <div class="centered">
+      <input type="submit" name="submit" id="submit">
+    </div>
+  </form>
+</body>
+</html>
